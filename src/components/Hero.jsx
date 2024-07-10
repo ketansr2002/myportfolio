@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants/index.js";
+import { HERO_CONTENT, HERO_IMAGE } from "../constants/index.js";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -49,7 +49,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               className="mt-10 h-90 w-80 rounded-lg object-cover  opacity-50 mix-blend-lighten"
-              src="src\assets\ketan_pic.jpg"
+              src={HERO_IMAGE}
               alt="myimage"
             />
           </div>

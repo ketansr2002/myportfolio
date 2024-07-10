@@ -2,6 +2,11 @@ import ecomm from "../assets/ecomm.mp4";
 import imageclassifier from "../assets/imageclassifier.mp4";
 import chatting from "../assets/chatting.mp4";
 import carpooling from "../assets/carpooling.mp4";
+import heroImage from "../assets/ketan_pic.jpg";
+import aboutImage from "../assets/about.jpg";
+
+export const HERO_IMAGE = heroImage;
+export const ABOUT_IMAGE = aboutImage;
 
 export const HERO_CONTENT = `I am an enthusiastic computer science graduate with interest in full stack development and machine learning. With a solid foundation in front-end technologies like Reactjs , and back-end technologies such as Node.js, Express, and databases, I am eager to apply my skills to real-world projects. Additionally, I have a keen interest in machine learning, with knowledge of Python, pandas and scikit-learn to develop predictive models and data-driven applications. My goal is to combine my technical expertise and passion for innovation to contribute to cutting-edge projects and help drive technological advancements.`;
 

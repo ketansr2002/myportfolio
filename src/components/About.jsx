@@ -1,4 +1,4 @@
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_IMAGE, ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 import { IoMdDownload } from "react-icons/io";
 
@@ -27,7 +27,7 @@ const About = () => {
           >
             <img
               className="rounded-2xl h-45 w-48"
-              src="src\assets\about.jpg"
+              src={ABOUT_IMAGE}
               alt="about image"
             />
           </motion.div>
