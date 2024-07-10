@@ -1,71 +1,59 @@
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+import ecomm from "../assets/ecomm.mp4";
+import imageclassifier from "../assets/imageclassifier.mp4";
+import chatting from "../assets/chatting.mp4";
+import carpooling from "../assets/carpooling.mp4";
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am an enthusiastic computer science graduate with interest in full stack development and machine learning. With a solid foundation in front-end technologies like Reactjs , and back-end technologies such as Node.js, Express, and databases, I am eager to apply my skills to real-world projects. Additionally, I have a keen interest in machine learning, with knowledge of Python, pandas and scikit-learn to develop predictive models and data-driven applications. My goal is to combine my technical expertise and passion for innovation to contribute to cutting-edge projects and help drive technological advancements.`;
+
+export const ABOUT_TEXT = `I am a dedicated and ambitious computer science graduate with a keen interest in full stack development and machine learning. My passion for understanding the intricacies of technology has also led me to explore the world of machine learning, where I have gained hands-on experience with Python, pandas and scikit-learn to create predictive models and data-driven applications. I thrive in collaborative environments, continuously seeking opportunities to learn and adapt to new challenges. Outside of coding, I enjoy staying active and exploring emerging technologies. My goal is to leverage my skills and enthusiasm to contribute to innovative projects and help drive technological advancements`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023 - 2023",
+    role: "Data Science Intern",
+    company: "dyota.ai",
+    description: `Involved in the development of an image classification model specifically for the hospitality industry, Extracted positive and negative features from a churn prediction dataset, Successfully collaborated with other team members, each with unique skill sets and perspectives, on this project.`,
+    technologies: ["Shap", "python", "matplotlib"],
   },
 ];
 
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: null,
+    image: ecomm,
+    link: "https://ketan-ecomm-store.netlify.app",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "express.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
-    image: null,
+    title: "Car-pooling webapp (Group Project)",
+    image: carpooling,
+    link: "https://github.com/ketansr2002/Carpooling",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " Developed full stack webapp where user can create ride, book ride and share with different people around them, used machine learning model for calculating fare price, depending upon numerous parameters",
+    technologies: ["python", "machine learning", "reactjs", "google map APIs"],
   },
   {
-    title: "Portfolio Website",
-    image: null,
+    title: "Image Classifier",
+    image: imageclassifier,
+    link: "https://github.com/ketansr2002/image-classifier",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      " Built a CNN model using transfer learning on top of vgg16 which categorizes images into multiple classes, also developed UI for uploading images and showing prediction results",
+    technologies: ["CNN", "vgg16", "HTML", "flask"],
   },
   {
-    title: "Blogging Platform",
-    image: null,
+    title: " Real-Time Chatting webapp ",
+    image: chatting,
+    link: "https://github.com/ketansr2002/mychatapp",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      " Real-time chatting web app which provides authentication, chatting, and manage friendship functionality to users, used socket.io web socket to establish real-time communication for instant message delivery and notifications",
+    technologies: ["chakraUI", "socket.io", "react.js", "Express", "mongoDB"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Jhansi, Uttar Pradesh (284001)",
+  phoneNo: "+91 9140962466",
+  email: "ketanraja2002@gmail.com",
 };
